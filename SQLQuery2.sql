@@ -18,3 +18,6 @@ VALUES
 ('Aarti',950000),
 ('Tanvi','950000'),
 ('Aarsheen','850000');
+
+-- UC4 Show All Entry
+SELECT * FROM EmployeePayRoll_Table 

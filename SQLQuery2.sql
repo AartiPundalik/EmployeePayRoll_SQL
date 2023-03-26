@@ -32,3 +32,9 @@ ALTER TABLE EmployeePayRoll_Table ADD Gender CHAR(1)
 UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Aarti'
 UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Tanvi'
 UPDATE EmployeePayRoll_Table SET Gender = 'F' WHERE EmployeeName = 'Aarsheen'
+
+--UC7 Sum,Average,Min,Max Count
+SELECT Gender , SUM(EmployeeSalary) AS SumOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 
+SELECT Gender , AVG(EmployeeSalary) AS AvgOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 
+SELECT Gender , MIN(EmployeeSalary) AS MinOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 
+SELECT Gender , MAX(EmployeeSalary) AS MaxOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 

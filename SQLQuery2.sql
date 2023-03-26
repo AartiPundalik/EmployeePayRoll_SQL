@@ -28,3 +28,7 @@ SELECT EmployeeSalary FROM EmployeePayRoll_Table WHERE EmployeeName = 'Aarti'
 
 -- UC6 Update Gender
 ALTER TABLE EmployeePayRoll_Table ADD Gender CHAR(1)
+
+UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Aarti'
+UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Tanvi'
+UPDATE EmployeePayRoll_Table SET Gender = 'F' WHERE EmployeeName = 'Aarsheen'

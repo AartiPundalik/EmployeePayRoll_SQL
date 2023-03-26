@@ -21,3 +21,6 @@ VALUES
 
 -- UC4 Show All Entry
 SELECT * FROM EmployeePayRoll_Table 
+
+-- UC5 Select Salry For Perticular Person
+SELECT EmployeeSalary FROM EmployeePayRoll_Table WHERE EmployeeName = 'Aarti'

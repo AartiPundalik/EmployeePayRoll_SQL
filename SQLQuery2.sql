@@ -24,3 +24,7 @@ SELECT * FROM EmployeePayRoll_Table
 
 -- UC5 Select Salry For Perticular Person
 SELECT EmployeeSalary FROM EmployeePayRoll_Table WHERE EmployeeName = 'Aarti'
+
+
+-- UC6 Update Gender
+ALTER TABLE EmployeePayRoll_Table ADD Gender CHAR(1)

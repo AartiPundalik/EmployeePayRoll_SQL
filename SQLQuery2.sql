@@ -10,3 +10,11 @@ EmployeeName varchar(225),
 EmployeeSalary INT,
 StartDate Date
 );
+
+-- UC3 Insert Value 
+INSERT INTO EmployeePayRoll_Table
+(EmployeeName,EmployeeSalary)
+VALUES
+('Aarti',950000),
+('Tanvi','950000'),
+('Aarsheen','850000');
